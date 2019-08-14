@@ -1,13 +1,13 @@
 {
   "name": "raiden-client-js",
   "version": "1.0.0",
-  "description": "",
+  "description": "Lightweight, well-documented and clean Javascript client library for Raiden API, written in typescript.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "test": "jasmine-ts --mode modules --config=./spec/support/jasmine.json --reporter=jasmine-spec-reporter",
-    "generate:docs": "typedoc --excludeNotExported --out docs ./src"
+    "test": "jasmine-ts --config=./spec/support/jasmine.json --reporter=jasmine-spec-reporter ",
+    "generate:docs": "typedoc --mode file --excludeNotExported --out docs ./src"
   },
   "keywords": [],
   "author": "",
