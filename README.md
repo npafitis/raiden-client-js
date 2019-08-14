@@ -1,6 +1,6 @@
 # raiden-client-js
 Lightweight, well-documented and clean Javascript client library for [Raiden API](https://raiden-network.readthedocs.io/en/stable/index.html), written in typescript.
-
+For more documentation visit [our Github page](https://npafitis.github.io/raiden-client-js/)
 ## Getting Started
 
 ### Installing
