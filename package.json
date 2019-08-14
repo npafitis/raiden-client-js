@@ -7,7 +7,7 @@
   "scripts": {
     "build": "tsc",
     "test": "jasmine-ts --config=./spec/support/jasmine.json --reporter=jasmine-spec-reporter ",
-    "generate:docs": "typedoc --mode file --excludeNotExported --out docs ./src"
+    "generate:docs": "typedoc --mode file --excludeNotExported --excludePrivate --excludeProtected --out docs ./src"
   },
   "keywords": [],
   "author": "",
