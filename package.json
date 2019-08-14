@@ -1,0 +1,33 @@
+{
+  "name": "raiden-client-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jasmine-ts --config=./spec/support/jasmine.json --reporter=jasmine-spec-reporter",
+    "generate:docs": "typedoc --excludeNotExported --out docs ./src"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^3.4.0",
+    "@types/nock": "^10.0.3",
+    "jasmine": "^3.4.0",
+    "jasmine-ts": "^0.3.0",
+    "karma": "^4.2.0",
+    "nock": "^10.0.6",
+    "ts-node": "~7.0.1",
+    "tslint": "^5.18.0",
+    "tslint-sonarts": "^1.9.0",
+    "typedoc": "^0.15.0",
+    "typescript": "^3.5.3"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "axios": "^0.19.0",
+    "class-transformer": "^0.2.3"
+  }
+}
