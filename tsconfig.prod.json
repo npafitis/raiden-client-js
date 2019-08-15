@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "declarationMap": false
+  },
+  "exclude": [
+    "node_modules",
+    "docs",
+    "spec",
+    "dist"
+  ]
+}

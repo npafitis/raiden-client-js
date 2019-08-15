@@ -5,10 +5,14 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "build": "tsc",
+    "build": "npm run clear && tsc --build tsconfig.prod.json",
     "test": "jasmine-ts --config=./spec/support/jasmine.json --reporter=jasmine-spec-reporter ",
-    "generate:docs": "typedoc --mode file --excludeNotExported --excludePrivate --excludeProtected --out docs ./src"
+    "clear": "rm -rf ./dist",
+    "generate:docs": "rm -rf ./docs && typedoc --mode file --excludeNotExported --excludePrivate --excludeProtected --out docs ./src"
   },
+  "files": [
+    "dist"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
